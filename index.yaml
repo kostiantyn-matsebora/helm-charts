@@ -22,4 +22,16 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/oauth2-proxy-oidc-7.5.1.tgz
     version: 7.5.1
-generated: "2024-03-06T19:01:52.317805387Z"
+  storage-provisioner:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-03-06T19:07:01.813572849Z"
+    description: Helm chart for provisioning storage definition (PersistentVolumeClaim
+      and PersistentVolume objects).
+    digest: f2a2ab7b05a86e029987699393ed22b7a7e9eb780b52b44634c3dace4d1d0706
+    name: storage-provisioner
+    type: application
+    urls:
+    - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-03-06T19:07:01.812525384Z"
