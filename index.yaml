@@ -11,6 +11,17 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/coredns-custom-1.0.0.tgz
     version: 1.0.0
+  k8s-deployment-restarter:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-03-06T19:14:38.195129859Z"
+    description: Restarts k8s deployment resource by schedule
+    digest: 7fd90a4dcadb9851038d6036c220a014e9a8c5baaef5dacf811ea6df6ca675ed
+    name: k8s-deployment-restarter
+    type: application
+    urls:
+    - https://kostiantyn-matsebora.github.io/helm-charts/k8s-deployment-restarter-1.0.0.tgz
+    version: 1.0.0
   oauth2-proxy-oidc:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -34,4 +45,4 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-03-06T19:07:01.812525384Z"
+generated: "2024-03-06T19:14:38.194457644Z"
