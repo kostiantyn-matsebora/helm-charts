@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  coredns-custom:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-03-06T18:55:57.966880877Z"
+    description: Creates custom configuration of CoreDNS
+    digest: 1154bc97cacd65f5debeb93c537abab06eae95d5227b59d93bfc9dddd8b32ce8
+    name: coredns-custom
+    type: application
+    urls:
+    - https://kostiantyn-matsebora.github.io/helm-charts/coredns-custom-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-03-06T18:55:57.96655852Z"
