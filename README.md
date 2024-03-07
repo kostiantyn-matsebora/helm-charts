@@ -10,7 +10,7 @@ Helm repository of following charts:
 
 Add repository first:
 
-```
+```bash
 helm repo add kostiantyn-matsebora https://kostiantyn-matsebora.github.io/helm-charts/
 ```
 
