@@ -1,5 +1,5 @@
 # helm-charts
-Helm repository of following charts:
+Helm repository of the following charts:
 
 * [k8s-deployment-restarter](https://github.com/kostiantyn-matsebora/k8s-deployment-restarter-chart) -  restarts kubernetes deployment resource by schedule.
 * [storage-provisioner](https://github.com/kostiantyn-matsebora/storage-provisioner-chart) - provisioning of storage definition (PersistentVolumeClaim and PersistentVolume objects).
