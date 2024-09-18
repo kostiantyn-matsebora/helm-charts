@@ -45,16 +45,6 @@ entries:
     version: 1.0.0
   oauth2-proxy-oidc:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-03-06T19:01:52.318327156Z"
-    description: oauth2-proxy configured to use  OIDC provider for authentication
-    digest: f2bc9280bf27452421bdf2c2529f5878d8884978c1759cd322bd88d932fe1560
-    name: oauth2-proxy-oidc
-    type: application
-    urls:
-    - https://kostiantyn-matsebora.github.io/helm-charts/oauth2-proxy-oidc-7.5.1.tgz
-    version: 7.5.1
-  - apiVersion: v2
     appVersion: 7.5.1
     created: "2024-09-18T15:56:06.969694829Z"
     description: oauth2-proxy configured to use  OIDC provider for authentication
