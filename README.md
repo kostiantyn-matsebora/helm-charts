@@ -5,8 +5,8 @@ Helm repository of the following charts:
 * [Storage provisioner](https://github.com/kostiantyn-matsebora/helm-storage-provisioner) - provisioning of storage definition (PersistentVolumeClaim and PersistentVolume objects).
 * [oauth2-proxy OIDC](https://github.com/kostiantyn-matsebora/helm-oauth2-proxy-oidc) - oauth2-proxy configured to use OIDC provider for user authentication.
 * [Custom CoreDNS](https://github.com/kostiantyn-matsebora/helm-coredns-custom) - CoreDNS custom/additional configuration.
-* [Generic application](https://github.com/kostiantyn-matsebora/helm-generic-application) - Generic application with features.
-* 
+* [Any application](https://github.com/kostiantyn-matsebora/helm-generic-application) - Generic application with features.
+
 ## Usage
 
 Add repository first:
@@ -15,7 +15,20 @@ Add repository first:
 helm repo add kostiantyn-matsebora https://kostiantyn-matsebora.github.io/helm-charts/
 ```
 
-Install helm chart using your custom values (for instance storage-provisioner):
-```
-helm install kostiantyn-matsebora/storage-provisioner --values ./custom-values.yaml
+Install/upgrade helm chart using your custom values (for instance storage-provisioner):
+```bash
+# Storage provisioner
+helm upgrade deployment-restarter kostiantyn-matsebora/storage-provisioner --install --values ./custom-values.yaml
+
+# Deployment restarter
+helm upgrade deployment-restarter kostiantyn-matsebora/k8s-deployment-restarter --install --values ./custom-values.yaml
+
+# oauth2-proxy OIDC
+helm upgrade oauth2-proxy kostiantyn-matsebora/oauth2-proxy-oidc --install --values ./custom-values.yaml
+
+# Custom CoreDNS
+helm upgrade coredns-custom kostiantyn-matsebora/coredns-custom --install --values ./custom-values.yaml
+
+# Any application
+helm upgrade myapp kostiantyn-matsebora/application --install --values ./custom-values.yaml
 ```
