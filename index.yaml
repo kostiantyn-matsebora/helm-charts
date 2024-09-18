@@ -46,9 +46,9 @@ entries:
   oauth2-proxy-oidc:
   - apiVersion: v2
     appVersion: 7.5.1
-    created: "2024-09-18T15:56:06.969694829Z"
+    created: "2024-09-18T16:03:56.788748148Z"
     description: oauth2-proxy configured to use  OIDC provider for authentication
-    digest: 610a6d592dcd8cd2402b87485d7319b6a1c1bdda31b19199b0c247a2427b093d
+    digest: 060599aad6d37cb665b2c1f8412c6a5c1f4eef9bc4c5b042680373960cdac80f
     name: oauth2-proxy-oidc
     type: application
     urls:
@@ -66,4 +66,4 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-09-18T15:56:06.968353102Z"
+generated: "2024-09-18T16:03:56.787632035Z"
