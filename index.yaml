@@ -3,9 +3,9 @@ entries:
   application:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-09-18T14:05:09.941186738Z"
+    created: "2024-09-18T14:33:37.080975298Z"
     description: Regular chart for workload including few useful features
-    digest: 5a78020be84fe3bdfabbf71d877f324f2aa28658023b3b9708fa1a44f9ba4591
+    digest: 011cf7f8de57cf6a364eee2ee41e534e73a65109af8d0a52aeeb3a96de5ec1e4
     name: application
     type: application
     urls:
@@ -56,4 +56,4 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-09-18T14:05:09.940077313Z"
+generated: "2024-09-18T14:33:37.080280053Z"
