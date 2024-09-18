@@ -1,11 +1,12 @@
 # helm-charts
 Helm repository of the following charts:
 
-* [k8s-deployment-restarter](https://github.com/kostiantyn-matsebora/k8s-deployment-restarter-chart) -  restarts kubernetes deployment resource by schedule.
-* [storage-provisioner](https://github.com/kostiantyn-matsebora/storage-provisioner-chart) - provisioning of storage definition (PersistentVolumeClaim and PersistentVolume objects).
-* [oauth2-proxy-oidc](https://github.com/kostiantyn-matsebora/oauth2-proxy-oidc-chart) - oauth2-proxy configured to use OIDC provider for user authentication.
-* [coredns-custom](https://github.com/kostiantyn-matsebora/coredns-custom-chart) - CoreDNS custom/additional configuration.
-
+* [Deployment restarter](https://github.com/kostiantyn-matsebora/helm-k8s-deployment-restarter) -  restarts kubernetes deployment resource by schedule.
+* [Storage provisioner](https://github.com/kostiantyn-matsebora/helm-storage-provisioner) - provisioning of storage definition (PersistentVolumeClaim and PersistentVolume objects).
+* [oauth2-proxy OIDC](https://github.com/kostiantyn-matsebora/helm-oauth2-proxy-oidc) - oauth2-proxy configured to use OIDC provider for user authentication.
+* [Custom CoreDNS](https://github.com/kostiantyn-matsebora/helm-coredns-custom) - CoreDNS custom/additional configuration.
+* [Generic application](https://github.com/kostiantyn-matsebora/helm-generic-application) - Generic application with features.
+* 
 ## Usage
 
 Add repository first:
