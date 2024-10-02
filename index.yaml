@@ -24,9 +24,9 @@ entries:
   coredns-custom:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-02T18:06:07.882479061Z"
+    created: "2024-10-02T18:10:43.594050852Z"
     description: Creates custom configuration of CoreDNS
-    digest: 82115b8319d2eb6068f3c7978347ee9a7f930f8b4cf6431271bb9a981e1d5a39
+    digest: fcebf6f600c3670ef69540cf87ed47a45fb8bb750ee0bf45dcf558142fda6920
     name: coredns-custom
     type: application
     urls:
@@ -208,4 +208,4 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-02T18:06:07.88204059Z"
+generated: "2024-10-02T18:10:43.593249468Z"
