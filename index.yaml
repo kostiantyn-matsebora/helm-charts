@@ -169,6 +169,17 @@ entries:
   storage-provisioner:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2024-10-02T18:04:03.195647989Z"
+    description: Helm chart for provisioning storage definition (PersistentVolumeClaim
+      and PersistentVolume objects).
+    digest: c4553b1e355c0a4a5bbcc2c31c42133d575e21f65da74e519bcfb719e9f2f635
+    name: storage-provisioner
+    type: application
+    urls:
+    - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2024-10-02T17:17:59.181542049Z"
     description: Helm chart for provisioning storage definition (PersistentVolumeClaim
       and PersistentVolume objects).
@@ -189,4 +200,4 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-02T18:01:18.418392192Z"
+generated: "2024-10-02T18:04:03.194518223Z"
