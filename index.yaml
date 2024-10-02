@@ -97,6 +97,18 @@ entries:
   simple-oauth2-proxy:
   - apiVersion: v2
     appVersion: 7.6.0
+    created: "2024-10-02T18:01:18.418956242Z"
+    description: A reverse proxy  that provides authentication using providers such
+      as Google, Microsoft etc., based on https://github.com/oauth2-proxy/oauth2-proxy
+    digest: 011454620ef4ddde9d64a0d8bd0111d91efee2277e44e3e557bd5d4517253c22
+    home: https://github.com/kostiantyn-matsebora/helm-simple-oauth2-proxy
+    name: simple-oauth2-proxy
+    type: application
+    urls:
+    - https://kostiantyn-matsebora.github.io/helm-charts/simple-oauth2-proxy-0.3.5.tgz
+    version: 0.3.5
+  - apiVersion: v2
+    appVersion: 7.6.0
     created: "2024-10-02T17:46:55.645220953Z"
     description: A reverse proxy  that provides authentication using providers such
       as Google, Microsoft etc., based on https://github.com/oauth2-proxy/oauth2-proxy
@@ -177,4 +189,4 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-02T17:52:33.252101743Z"
+generated: "2024-10-02T18:01:18.418392192Z"
