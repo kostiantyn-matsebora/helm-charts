@@ -35,6 +35,16 @@ entries:
   k8s-deployment-restarter:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2024-10-02T17:10:36.830006649Z"
+    description: Restarts k8s deployment resource by schedule
+    digest: 80e9349f7dfb160dbfc4f68bd682f7ce827bf77ca51241132dea3d1aa48f2168
+    name: k8s-deployment-restarter
+    type: application
+    urls:
+    - https://kostiantyn-matsebora.github.io/helm-charts/k8s-deployment-restarter-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2024-09-18T15:11:47.950910839Z"
     description: Restarts k8s deployment resource by schedule
     digest: bb52363839d09f6576ad7f5f8adbcf757aac373a26d3b7692365e2dcec2e7e75
@@ -102,4 +112,4 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-02T15:03:28.189032456Z"
+generated: "2024-10-02T17:10:36.82964008Z"
