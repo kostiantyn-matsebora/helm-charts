@@ -3,7 +3,7 @@ Helm repository of the following charts:
 
 * [Deployment restarter](https://github.com/kostiantyn-matsebora/helm-k8s-deployment-restarter) -  restarts kubernetes deployment resource by schedule.
 * [Storage provisioner](https://github.com/kostiantyn-matsebora/helm-storage-provisioner) - provisioning of storage definition (PersistentVolumeClaim and PersistentVolume objects).
-* [oauth2-proxy OIDC](https://github.com/kostiantyn-matsebora/helm-oauth2-proxy-oidc) - oauth2-proxy configured to use OIDC provider for user authentication.
+* [Simple oauth2-proxy](https://github.com/kostiantyn-matsebora/helm-simple-oauth2-proxy) - deploying and configuring oauth2-proxy provides a way to configure OIDC provider as any other OAuth2 provider supported by application..
 * [Custom CoreDNS](https://github.com/kostiantyn-matsebora/helm-coredns-custom) - CoreDNS custom/additional configuration.
 * [Any application](https://github.com/kostiantyn-matsebora/helm-generic-application) - Generic application with features.
 
@@ -23,8 +23,8 @@ helm upgrade deployment-restarter kostiantyn-matsebora/storage-provisioner --ins
 # Deployment restarter
 helm upgrade deployment-restarter kostiantyn-matsebora/k8s-deployment-restarter --install --values ./custom-values.yaml
 
-# oauth2-proxy OIDC
-helm upgrade oauth2-proxy kostiantyn-matsebora/oauth2-proxy-oidc --install --values ./custom-values.yaml
+# Simple oauth2-proxy
+helm upgrade oauth2-proxy kostiantyn-matsebora/simple-oauth2-proxy --install --values ./custom-values.yaml
 
 # Custom CoreDNS
 helm upgrade coredns-custom kostiantyn-matsebora/coredns-custom --install --values ./custom-values.yaml
