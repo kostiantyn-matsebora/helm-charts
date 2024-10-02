@@ -24,6 +24,16 @@ entries:
   coredns-custom:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2024-10-02T18:06:07.882479061Z"
+    description: Creates custom configuration of CoreDNS
+    digest: 82115b8319d2eb6068f3c7978347ee9a7f930f8b4cf6431271bb9a981e1d5a39
+    name: coredns-custom
+    type: application
+    urls:
+    - https://kostiantyn-matsebora.github.io/helm-charts/coredns-custom-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2024-10-02T17:52:33.252586171Z"
     description: Creates custom configuration of CoreDNS
     digest: d880d66f812060c9eccca415bec83a157505572200cc4ca14fea1eb39f5feba6
@@ -210,4 +220,4 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-02T18:05:11.236136147Z"
+generated: "2024-10-02T18:06:07.88204059Z"
