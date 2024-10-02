@@ -1,5 +1,8 @@
-# helm-charts
-Helm repository of the following charts:
+# Helm charts repository 
+
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/kostiantyn-matsebora-helm-charts)](https://artifacthub.io/packages/search?repo=kostiantyn-matsebora-helm-charts)
+
+It contains the following charts:
 
 * [Deployment restarter](https://github.com/kostiantyn-matsebora/helm-k8s-deployment-restarter) -  restarts kubernetes deployment resource by schedule.
 * [Storage provisioner](https://github.com/kostiantyn-matsebora/helm-storage-provisioner) - provisioning of storage definition (PersistentVolumeClaim and PersistentVolume objects).
