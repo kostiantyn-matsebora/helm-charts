@@ -115,6 +115,39 @@ entries:
     - https://kostiantyn-matsebora.github.io/helm-charts/oauth2-proxy-oidc-0.2.0.tgz
     version: 0.2.0
   simple-oauth2-proxy:
+  - annotations:
+      artifacthub.io/alternativeName: oauth2-proxy
+      artifacthub.io/category: security
+      artifacthub.io/changes: |
+        - Switched to quay.io/oauth2-proxy/oauth2-proxy image
+      artifacthub.io/images: "- name: oauth2-proxy\n  image: quay.io/oauth2-proxy/oauth2-proxy:7.6.0\n-
+        name: busybox\n  image: busybox  \n"
+      artifacthub.io/license: MIT
+    apiVersion: v2
+    appVersion: 7.6.0
+    created: "2024-10-03T08:29:30.853486341Z"
+    description: A reverse proxy  that provides authentication using providers such
+      as Google, Microsoft etc., based on https://github.com/oauth2-proxy/oauth2-proxy
+    digest: ec896287799cc566f5a6b9cae899436667355b418b8cd36a9ab3a60f9bbef407
+    home: https://github.com/kostiantyn-matsebora/helm-simple-oauth2-proxy
+    keywords:
+    - kubernetes
+    - oauth
+    - oauth2
+    - authentication
+    - google
+    - github
+    kubeVersion: '>=1.9.0-0'
+    maintainers:
+    - email: kmatsebora@gmail.com
+      name: kostiantyn-matsebora
+    name: simple-oauth2-proxy
+    sources:
+    - https://github.com/kostiantyn-matsebora/helm-simple-oauth2-proxy
+    type: application
+    urls:
+    - https://kostiantyn-matsebora.github.io/helm-charts/simple-oauth2-proxy-0.3.6.tgz
+    version: 0.3.6
   - apiVersion: v2
     appVersion: 7.6.0
     created: "2024-10-02T18:11:52.081553965Z"
@@ -220,4 +253,4 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-02T18:11:52.08093255Z"
+generated: "2024-10-03T08:29:30.852765454Z"
