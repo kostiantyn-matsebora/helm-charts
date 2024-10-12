@@ -18,3 +18,4 @@ ignore: # (optional, packages that should not be indexed by Artifact Hub)
   - name: application
   - name: code-server
   - name: mosquitto
+  - name: rinq-mqtt
