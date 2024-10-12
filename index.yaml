@@ -21,6 +21,17 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/application-0.1.0.tgz
     version: 0.1.0
+  code-server:
+  - apiVersion: v2
+    appVersion: 4.93.1
+    created: "2024-10-12T10:39:55.73077813Z"
+    description: A Helm chart for coder/code-server
+    digest: 894d2afd39fd2d927af8487c979597bd9af28c8b6e4e6daca364c78f3995a210
+    name: code-server
+    type: application
+    urls:
+    - https://kostiantyn-matsebora.github.io/helm-charts/code-server-3.24.0.tgz
+    version: 3.24.0
   coredns-custom:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -289,4 +300,4 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-04T06:06:16.743096824Z"
+generated: "2024-10-12T10:39:55.729903727Z"
