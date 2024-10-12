@@ -136,6 +136,44 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/oauth2-proxy-oidc-0.2.0.tgz
     version: 0.2.0
+  ring-mqtt:
+  - annotations:
+      max_scale_version: 24.04.1
+      min_scale_version: 24.04.0
+      truecharts.org/category: home-automation
+      truecharts.org/max_helm_version: "3.15"
+      truecharts.org/min_helm_version: "3.11"
+      truecharts.org/train: stable
+    apiVersion: v2
+    appVersion: 5.7.1
+    created: "2024-10-12T11:04:13.39350811Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 25.0.0
+    description: Interact with Ring Inc products (cameras/alarms/smart lighting) via
+      MQTT.
+    digest: d4c06d94b21c7f499d59f9852527c81bb317f170b215cdb4bb33d31db1e1ccf9
+    home: https://truecharts.org/charts/stable/ring-mqtt
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/ring-mqtt.webp
+    keywords:
+    - ring-mqtt
+    - home-automation
+    - Tools-Utilities
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: ring-mqtt
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/ring-mqtt
+    - https://github.com/tsightler/ring-mqtt
+    - https://hub.docker.com/r/tsightler/ring-mqtt
+    type: application
+    urls:
+    - https://kostiantyn-matsebora.github.io/helm-charts/ring-mqtt-10.3.0.tgz
+    version: 10.3.0
   simple-oauth2-proxy:
   - annotations:
       artifacthub.io/alternativeName: oauth2-proxy
@@ -311,4 +349,4 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-12T10:53:09.072848083Z"
+generated: "2024-10-12T11:04:13.383069212Z"
