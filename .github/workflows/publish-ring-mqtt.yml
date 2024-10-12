@@ -12,13 +12,18 @@ jobs:
       - uses: actions/checkout@v2
         with: 
           repository: truecharts/public
+      - name: Copy chart
+        run: |
+           mkdir -p __charts/ring-mqtt
+           cp -R  charts/stable/ring-mqtt __charts/ring-mqtt
       - name: Publish Helm chart
         if: github.ref == 'refs/heads/master'
         uses: stefanprodan/helm-gh-pages@master        
         with:
           token: ${{ secrets.HELM_BOT_GH_TOKEN }}
-          charts_dir: charts/stable/ring-mqtt
+          charts_dir: __charts
           charts_url: https://kostiantyn-matsebora.github.io/helm-charts
           owner: kostiantyn-matsebora
           repository: helm-charts
           branch: master
+       
