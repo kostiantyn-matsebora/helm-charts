@@ -14,8 +14,8 @@ jobs:
           repository: truecharts/public
       - name: Copy chart
         run: |
-           mkdir -p __charts/ring-mqtt
-           cp -R  charts/stable/ring-mqtt __charts/ring-mqtt
+           mkdir -p __charts
+           cp -R  charts/stable/ring-mqtt __charts/
       - name: Publish Helm chart
         if: github.ref == 'refs/heads/master'
         uses: stefanprodan/helm-gh-pages@master        
