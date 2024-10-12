@@ -114,6 +114,17 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/k8s-deployment-restarter-1.0.0.tgz
     version: 1.0.0
+  mosquitto:
+  - apiVersion: v2
+    appVersion: 2.0.15
+    created: "2024-10-12T10:53:09.073596545Z"
+    description: A Helm chart for Eclipse Mosquitto
+    digest: 8821dd476dd78488c9c17aa834ce71d6b599774324aa724c632df69d19635b23
+    name: mosquitto
+    type: application
+    urls:
+    - https://kostiantyn-matsebora.github.io/helm-charts/mosquitto-0.1.0.tgz
+    version: 0.1.0
   oauth2-proxy-oidc:
   - apiVersion: v2
     appVersion: 7.5.1
@@ -300,4 +311,4 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-12T10:39:55.729903727Z"
+generated: "2024-10-12T10:53:09.072848083Z"
