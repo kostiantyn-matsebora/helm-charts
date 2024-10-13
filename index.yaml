@@ -21,6 +21,31 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/application-0.1.0.tgz
     version: 0.1.0
+  cloudflare-tunnel:
+  - apiVersion: v2
+    appVersion: 2024.8.3
+    created: "2024-10-13T10:49:57.547439749Z"
+    description: Creation of a cloudflared deployment - a reverse tunnel for an environment
+    digest: 1a5fa2d014d1be65f03d917ad50058704ef2851c9eb8d56d5d5fec582e23dbce
+    icon: https://developers.cloudflare.com/cloudflare-one/favicon-32x32.png
+    name: cloudflare-tunnel
+    type: application
+    urls:
+    - https://kostiantyn-matsebora.github.io/helm-charts/cloudflare-tunnel-0.3.2.tgz
+    version: 0.3.2
+  cloudflare-tunnel-remote:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-10-13T10:49:57.547753046Z"
+    description: Deployment of a remotely managed tunnel that has already been provisioned
+      in Cloudflare
+    digest: 3c97b95fe51a929d627084039c1dae03e83eaef512639f980a547f3966b0b6b2
+    icon: https://developers.cloudflare.com/cloudflare-one/favicon-32x32.png
+    name: cloudflare-tunnel-remote
+    type: application
+    urls:
+    - https://kostiantyn-matsebora.github.io/helm-charts/cloudflare-tunnel-remote-0.1.2.tgz
+    version: 0.1.2
   code-server:
   - apiVersion: v2
     appVersion: 4.93.1
@@ -349,4 +374,4 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-12T11:04:13.383069212Z"
+generated: "2024-10-13T10:49:57.546750529Z"
