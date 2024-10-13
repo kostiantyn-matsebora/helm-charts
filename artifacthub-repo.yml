@@ -19,3 +19,5 @@ ignore: # (optional, packages that should not be indexed by Artifact Hub)
   - name: code-server
   - name: mosquitto
   - name: ring-mqtt
+  - name: cloudflare-tunnel
+  - name: cloudflare-tunnel-remote
