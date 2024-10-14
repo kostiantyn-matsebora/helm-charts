@@ -88,6 +88,60 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/coredns-custom-1.0.0.tgz
     version: 1.0.0
+  ha:
+  - annotations:
+      artifacthub.io/alternativeName: homeassistant
+      artifacthub.io/category: integration-delivery
+      artifacthub.io/images: |
+        - name: homeassistant
+          image: homeassistant/home-assistant:2024.10
+      artifacthub.io/license: MIT
+    apiVersion: v2
+    appVersion: "2024.10"
+    created: "2024-10-14T14:25:28.430427426Z"
+    dependencies:
+    - alias: ha
+      name: application
+      repository: https://kostiantyn-matsebora.github.io/helm-charts
+      version: 0.2.0
+    - alias: persistence
+      condition: persistence.enabled
+      name: storage-provisioner
+      repository: https://kostiantyn-matsebora.github.io/helm-charts
+      version: 1.0.2
+    - alias: tunnel
+      condition: tunnel.enabled
+      name: cloudflare-tunnel
+      repository: https://kostiantyn-matsebora.github.io/helm-charts
+      version: 0.3.2
+    - condition: mosquitto.enabled
+      name: mosquitto
+      repository: https://kostiantyn-matsebora.github.io/helm-charts
+      version: 0.1.0
+    - condition: ring-mqtt.enabled
+      name: ring-mqtt
+      repository: https://kostiantyn-matsebora.github.io/helm-charts
+      version: 10.3.0
+    description: Home assistant core with addons
+    digest: 86ab43e148dc9ccd8755372d33efd73e541a4128dddd709141db069b13333c2a
+    keywords:
+    - homeassistant
+    - ha
+    - mosquitto
+    - mqtt
+    - ring
+    - ring-mqtt
+    kubeVersion: '>=1.9.0-0'
+    maintainers:
+    - email: kmatsebora@gmail.com
+      name: kostiantyn-matsebora
+    name: ha
+    sources:
+    - https://github.com/kostiantyn-matsebora/helm-ha
+    type: application
+    urls:
+    - https://kostiantyn-matsebora.github.io/helm-charts/ha-0.1.0.tgz
+    version: 0.1.0
   k8s-deployment-restarter:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -374,4 +428,4 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-13T10:49:57.546750529Z"
+generated: "2024-10-14T14:25:28.41779303Z"
