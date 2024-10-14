@@ -8,6 +8,7 @@ It contains the following charts:
 * [Storage provisioner](https://github.com/kostiantyn-matsebora/helm-storage-provisioner) - provisioning of storage definition (PersistentVolumeClaim and PersistentVolume objects).
 * [Simple oauth2-proxy](https://github.com/kostiantyn-matsebora/helm-simple-oauth2-proxy) - deploying and configuring oauth2-proxy provides a way to configure OIDC provider as any other OAuth2 provider supported by application..
 * [Custom CoreDNS](https://github.com/kostiantyn-matsebora/helm-coredns-custom) - CoreDNS custom/additional configuration.
+* [Home assistant core](https://github.com/kostiantyn-matsebora/helm-ha) - Home assistant core with some addons.
 * [Any application](https://github.com/kostiantyn-matsebora/helm-generic-application) - Generic application with features.
 
 ## Usage
@@ -31,6 +32,9 @@ helm upgrade oauth2-proxy kostiantyn-matsebora/simple-oauth2-proxy --install --v
 
 # Custom CoreDNS
 helm upgrade coredns-custom kostiantyn-matsebora/coredns-custom --install --values ./custom-values.yaml
+
+# Helm assistant core
+helm upgrade ha kostiantyn-matsebora/ha --install --values ./custom-values.yaml
 
 # Any application
 helm upgrade myapp kostiantyn-matsebora/application --install --values ./custom-values.yaml
