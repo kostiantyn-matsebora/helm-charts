@@ -3,6 +3,16 @@ entries:
   application:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2024-10-16T18:54:18.614554195Z"
+    description: Regular chart for workload including few useful features
+    digest: aa7787bdefd6f13dfdd00f68a72a6ccb1a804eff0af478b84ce380309f4e97e4
+    name: application
+    type: application
+    urls:
+    - https://kostiantyn-matsebora.github.io/helm-charts/application-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2024-10-15T18:15:26.306695659Z"
     description: Regular chart for workload including few useful features
     digest: 82b2bf3b3d08b5b8be9eee335994503fc7687b459747816759ad05be97bbe782
@@ -535,4 +545,4 @@ entries:
     urls:
     - https://kostiantyn-matsebora.github.io/helm-charts/storage-provisioner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-15T18:15:26.305585746Z"
+generated: "2024-10-16T18:54:18.61388694Z"
